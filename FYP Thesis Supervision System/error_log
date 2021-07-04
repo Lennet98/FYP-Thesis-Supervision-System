@@ -1,0 +1,19 @@
+[13-Apr-2021 07:12:56 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home8/programm/public_html/thesisms/PHPMailer/PHPMailerAutoload.php on line 45
+[13-Apr-2021 08:16:31 UTC] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home8/programm/public_html/thesisms/progress_note.php on line 52
+[13-Apr-2021 08:43:47 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home8/programm/public_html/thesisms/PHPMailer/PHPMailerAutoload.php on line 45
+[13-Apr-2021 08:43:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home8/programm/public_html/thesisms/server.php:537) in /home8/programm/public_html/thesisms/server.php on line 551
+[13-Apr-2021 08:54:29 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home8/programm/public_html/thesisms/PHPMailer/PHPMailerAutoload.php on line 45
+[13-Apr-2021 17:05:32 Asia/Singapore] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home8/programm/public_html/thesisms/PHPMailer/PHPMailerAutoload.php on line 45
+[13-Apr-2021 15:03:24 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home8/programm/public_html/thesisms/PHPMailer/PHPMailerAutoload.php on line 45
+[13-Apr-2021 23:07:05 Asia/Singapore] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home8/programm/public_html/thesisms/PHPMailer/PHPMailerAutoload.php on line 45
+[13-Apr-2021 15:14:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home8/programm/public_html/thesisms/server.php:1060) in /home8/programm/public_html/thesisms/server.php on line 1067
+[13-Apr-2021 15:14:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home8/programm/public_html/thesisms/server.php:1060) in /home8/programm/public_html/thesisms/server.php on line 1067
+[13-Apr-2021 15:14:43 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home8/programm/public_html/thesisms/PHPMailer/PHPMailerAutoload.php on line 45
+[20-Apr-2021 01:39:54 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home8/programm/public_html/thesisms/PHPMailer/PHPMailerAutoload.php on line 45
+[20-Apr-2021 02:13:22 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home8/programm/public_html/thesisms/PHPMailer/PHPMailerAutoload.php on line 45
+[16-Jun-2021 16:49:36 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home8/programm/public_html/thesisms/PHPMailer/PHPMailerAutoload.php on line 45
+[17-Jun-2021 01:07:14 Asia/Singapore] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home8/programm/public_html/thesisms/PHPMailer/PHPMailerAutoload.php on line 45
+[17-Jun-2021 01:39:18 Asia/Singapore] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home8/programm/public_html/thesisms/PHPMailer/PHPMailerAutoload.php on line 45
+[17-Jun-2021 01:51:42 Asia/Singapore] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home8/programm/public_html/thesisms/PHPMailer/PHPMailerAutoload.php on line 45
+[20-Jun-2021 01:04:44 Asia/Singapore] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home8/programm/public_html/thesisms/PHPMailer/PHPMailerAutoload.php on line 45
+[04-Jul-2021 17:46:40 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home8/programm/public_html/thesisms/PHPMailer/PHPMailerAutoload.php on line 45

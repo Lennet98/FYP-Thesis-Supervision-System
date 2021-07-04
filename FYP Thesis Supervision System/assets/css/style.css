@@ -1,0 +1,538 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-size: 120%;
+	background: #ebebeb;
+}
+
+.header {
+    background: #474747;
+    padding: 10px;
+}
+
+.logo-container {
+	padding-top: 50px;
+	margin: auto;
+	width: 100%;
+	font-size: 5vw;
+	text-align: center;
+}
+
+.thesislogo {
+	width: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.form-header {
+	width: 30%;
+	margin: 50px auto 0px;
+	color: white;
+	background: #013163;
+	text-align: center;
+	border: 1px solid #013163;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+
+form, .content {
+	width: 30%;
+	margin: 0px auto;
+	margin-bottom: 50px;
+	padding: 20px;
+	border: 1px solid #013163;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.input-group {
+	margin: 10px 0px 10px 0px;
+	padding: 0 0 10px 0;
+}
+
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+
+.input-group input {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	background: #FFFFED;
+}
+
+.role-container {
+  width: 30%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #013163;
+  color: white;
+  font-size: 1vw;
+}
+
+.role-option {
+    background-color: #FFFFED;
+    color: black;
+}
+
+.btn {
+	padding: 10px;
+	margin-right: 20px;
+	font-size: 15px;
+	color: white;
+	background: #013163;
+	border: none;
+	border-radius: 5px;
+	float:right;
+}
+
+.start_header_container {
+	width: auto;
+	height: 3vw;
+	color: white;
+	font-size: 2vw;
+}
+
+.start_header_container a:visited {
+    color:white;
+}
+
+.start_header_container p {
+	padding: 5px 5px;
+	display: inline-block;
+}
+
+.start_btn_container {
+    color: white;
+    position: absolute;
+    right: 0px;
+    display: inline-block;
+	vertical-align: middle;
+}
+
+.start_btn_container a {
+    max-width: 100%;
+    max-height: 100%;
+	text-decoration: underline;
+	font-size: 1vw;
+	padding: 1vw 50px 1vw 0;
+	color: white;
+}
+
+.start_btn_container a:visited {
+	color: white;
+}
+
+.sidenav {
+    height: 80%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    left: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: #013163;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 16px 8px 16px 16px;
+  text-decoration: none;
+  font-size: 1vw;
+  color: #FFFFFF;
+  display: block;
+}
+
+.navlogo {
+    max-width: 100%;
+    max-height: 100%;
+    float: left;
+}
+
+.error {
+	width: auto; 
+	padding: 10px; 
+	line-height: 1.8;
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: left;
+	
+}
+
+.success {
+    width: 50%;
+	color: #3c763d; 
+	background: #dff0d8; 
+	border: 1px solid #3c763d;
+	margin: 50px auto 0px;
+	font-size: 1vw;
+}
+
+.user-nav-container {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 1vw 50px 1vw 0;
+    font-size: 1vw;
+}
+
+#image_display { 
+    height: 90px; 
+    width: 80px; 
+    float: right; 
+    margin-right: 10px; 
+}
+
+.profile-content{
+	width: 40%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #013163;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.dashboard-header {
+    text-decoration: underline;
+    padding : 30px;
+    margin: 10px 10px 0 10px;
+    background: #013163;
+	border-radius: 10px 10px 0px 0px;
+	color: white;
+}
+
+.dashboard-content {
+    padding: 20px;
+    margin: 0 10px 50px 10px;
+    border: 1px solid #013163;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.dashboard-layout {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-gap: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.dashboard-layout > div {
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.menu {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.menu-content {
+    background: #013163;
+    padding: 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.menu-content a {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+
+.menu-content a:visited {
+    color: white;
+}
+
+.menu-content a img {
+    width: 10%;
+    padding: 10px;
+    object-fit: scale-down;
+}
+
+.menu-content a h3 {
+    padding: 30px 0px;
+    padding-left: 20%;
+}
+
+.fc-content {
+    margin-bottom: 20px;
+}
+
+.announcement-content {
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    background: #013163;
+    color: white;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.announcement-content button {
+    margin-left: 15px;
+}
+
+.announcement-content hr {
+    border-top: 1px solid white;
+    margin: 10px 10px 20px 10px;
+}
+
+.announcement-btn {
+    padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #013163;
+	border: 1px solid white;
+	border-radius: 5px;
+	float: left;
+}
+
+.annc-header {
+    text-align: left;
+    color: black;
+    background: white;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    padding-top: 20px;
+    margin: 10px 10px 0 10px;
+}
+
+.annc-header hr {
+    border-top: 1px solid #013163;
+}
+
+.edit-announcement{
+    background: #013163;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 20px;
+    display: block;
+}
+
+.edit-document{
+    background: white;
+    color: #013163;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.annc-content {
+    border-radius: 0 0 10px 10px;
+    margin: 0px 10px 10px 10px;
+    background: white;
+    color: black;
+    padding: 0px 4%;
+    padding-bottom: 4%;
+    text-align: left;
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+}
+
+.form-container {
+  max-width: 80%;
+  padding: 10%;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  width: 100%;
+}
+
+/* Full-width input fields */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 22px;
+  border: none;
+  background: #f1f1f1;
+}
+
+.form-container .btn {
+    right: 10px;
+}
+
+.document-content {
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    background: #013163;
+    color: white;
+    margin: 0 auto;
+}
+
+.document-content button {
+    margin-left: 10px;
+}
+
+.document-content hr {
+    border-top: 1px solid white;
+    margin: 10px 10px 20px 10px;
+}
+
+.docToUpload {
+  margin-bottom: 30px;
+  border: none;
+  font-size: 1vw;
+  text-align: center;
+}
+
+.doc-content {
+    font-size: 80%;
+    margin-right: 10px;
+    text-align: left;
+    line-height: 1.8;
+}
+
+
+.doc-files {
+    color: white;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-bottom: 10px;
+}
+
+.doc-files a {
+    padding-left: 10px;
+    color: white;
+}
+
+.doc-files p {
+    padding-left: 10px;
+}
+
+.doc-files a:visited {
+    color: white;
+}
+
+.doc-grid {
+    
+}
+
+.doc-plag {
+    visibility: hidden;
+}
+
+.forum-header {
+    text-decoration: none;
+    width: 60%;
+    padding : 30px;
+    margin: 0px auto;
+    margin-top: 30px;
+    background: #013163;
+	border-radius: 10px 10px 0px 0px;
+	color: white;
+}
+
+.forum-content {
+    width: 60%;
+    padding: 30px;
+    margin: 0 auto;
+    border: 1px solid #013163;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.send-msg-container {
+    width: 90%;
+    padding: 10px;
+}
+
+.msg-content {
+    max-width: 90%;
+}
+
+.thesis-content {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid black;
+    font-size: 1vw;
+    line-height: 1.8;
+}
+
+.thesis-content hr {
+    margin: 10px 0;
+}
+
+.thesis_style {
+    border: none;
+}
+
+.thesis_list {
+    padding: 10px 0;
+    font-size: 1vw;
+}
+
+.thesis_list p {
+    padding-left: 20px;
+    display: inline;
+}
+
+.thesis-option {
+    background: white;
+    color: black;
+}
+
+.spc_thesis_content {
+    display: grid;
+    grid-template-columns: auto auto auto 10% 10%;
+    padding: 15px;
+    padding-bottom: 15px;
+    border: 1px solid black;
+}
+
+.spc-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    font-size: 30px;
+}
+
+.mg-thesis-option {
+    width: 100%;
+    padding-left: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.spc_notes_content {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 15px;
+    padding-bottom: 15px;
+    border: 1px solid black;
+}
+
+.mg_notes_content {
+    display: grid;
+    grid-template-columns: 20% 50% 20% 10%;
+    padding: 15px;
+    padding-bottom: 15px;
+    border: 1px solid black;
+}
