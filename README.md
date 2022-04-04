@@ -1,11 +1,11 @@
 Requirements
 
-a)Sign up
-b)Login 
-c)Register thesis title and supervisor
-d)Matching student to supervisor 
-e)Manage document 
-f)Manage progress thesis student
-g)Make appointment
-h)Make announcement 
+a)Sign up <br />
+b)Login <br />
+c)Register thesis title and supervisor <br />
+d)Matching student to supervisor <br />
+e)Manage document <br />
+f)Manage progress thesis student <br />
+g)Make appointment <br />
+h)Make announcement <br />
 
