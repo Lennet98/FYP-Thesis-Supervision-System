@@ -9,3 +9,5 @@ f)Manage progress thesis student <br />
 g)Make appointment <br />
 h)Make announcement <br />
 
+http://programmingprojecthj.com/thesisms/boardingPage.php
+
