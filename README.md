@@ -1,4 +1,4 @@
-# Thesis Supervision Syste
+# Thesis Supervision System
 
 ![Capture4](https://user-images.githubusercontent.com/49810077/184809596-aa10151e-1cda-4714-a4f3-991489238149.JPG)
 
