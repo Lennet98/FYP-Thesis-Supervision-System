@@ -13,6 +13,7 @@ PHP, MySQL
 -Register thesis title and supervisor <br />
 -Submit thesis <br />
 -Update progress <br />
+-Manage Profile <br />
 -Make appointment <br />
 -Make announcement <br />
 
